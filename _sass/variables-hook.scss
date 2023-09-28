@@ -1,3 +1,8 @@
 /*
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+$font-family-heading-ko: $font-family-heading, 'Pretendard Variable' !default;
+$font-family-base-ko: $font-family-base, 'Pretendard Variable' !default;

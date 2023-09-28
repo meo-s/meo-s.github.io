@@ -4,3 +4,69 @@
 @import 'main';
 
 /* append your custom style below */
+
+#topbar {
+    font-family: $font-family-base-ko;
+}
+
+#post-list {
+    .post-preview .card-title {
+        font-family: $font-family-base-ko;
+    }
+}
+
+#archives {
+    li a {
+        font-family: $font-family-base-ko;
+    }
+}
+
+#search-results {
+    article {
+        h2 a {
+            font-family: $font-family-heading-ko;
+        }
+
+        p {
+            font-family: $font-family-base-ko;
+        }
+    }
+}
+
+article header h1 {
+    font-family: $font-family-heading-ko;
+}
+
+article .content {
+    h1 {
+        display: none;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-family: $font-family-heading-ko;
+    }
+
+    p {
+        font-family: $font-family-base-ko;
+    }
+}
+
+#tail-wrapper {
+    #related-posts {
+        display: none;
+    }
+
+    .post-navigation {
+        font-family: $font-family-base-ko;
+    }
+}
+
+#toc {
+    font-family: $font-family-base-ko;
+}
+
+#page-category {
+    li a {
+        font-family: $font-family-base-ko;
+    }
+}
