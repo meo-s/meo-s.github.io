@@ -48,10 +48,10 @@ article .content {
     }
 
     h2, h3, h4, h5, h6 {
-        font-family: $font-family-heading-ko;
+        font-family: $font-family-heading-ko !important;
     }
 
-    p {
+    * {
         font-family: $font-family-base-ko;
     }
 }
@@ -70,8 +70,7 @@ article .content {
     font-family: $font-family-base-ko;
 }
 
-#page-category {
-    li a {
-        font-family: $font-family-base-ko;
-    }
+#page-category li a,
+#page-tag li a {
+    font-family: $font-family-base-ko;
 }
